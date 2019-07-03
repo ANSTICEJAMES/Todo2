@@ -70,7 +70,7 @@ $("#red" + i).click(function(){
 
 //проверка строки после редактирования
  $( "#text" + i ).focusout(function(){
-   if ((("#text" + i).text()).length == 0) {
+   if (($(this).text()) == 0) {
      $(this).parent().remove();
  }
  });
