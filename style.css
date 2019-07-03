@@ -1,0 +1,31 @@
+body{
+  background-color: #CC99FF;
+}
+.list{
+  width:500px;
+  margin: 20px auto;
+  border: 2px solid #FFFF00;
+  padding: 10px 20px;
+  background-color: #FFFF99;
+}
+.text{
+  font-family: Courier;
+  font-weight: bold;
+  font-size: 20pt;
+  color: #9900CC;
+}
+li{
+   list-style-type: none;
+   font-family: Courier;
+   font-weight: italic;
+   color: #9900CC;
+   font-size: 14pt;
+   word-break: break-all;
+   padding: 0;
+   word-wrap: break-word;
+
+}
+.button {
+  margin-left: 5px;
+  float: right;
+}
